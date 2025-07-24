@@ -11,6 +11,10 @@
 		84D92D852E3225E3006C07C2 /* TestSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 84D92D832E3225E3006C07C2 /* TestSDK.podspec */; };
 		84D92D872E322BF6006C07C2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 84D92D862E322BF6006C07C2 /* LICENSE */; };
 		84D92D882E322BF6006C07C2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 84D92D862E322BF6006C07C2 /* LICENSE */; };
+		84D92D892E3239D5006C07C2 /* SharedLogicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D92D812E322531006C07C2 /* SharedLogicManager.swift */; };
+		84D92D8A2E3239D5006C07C2 /* SharedLogicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D92D812E322531006C07C2 /* SharedLogicManager.swift */; };
+		84D92D8B2E3239DB006C07C2 /* iOSPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D92D7F2E32251C006C07C2 /* iOSPlayer.swift */; };
+		84D92D8C2E3239E0006C07C2 /* tvOSPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D92D802E322529006C07C2 /* tvOSPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +22,7 @@
 		84942D1A2E30EAEE00118B07 /* TestSDKTVOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestSDKTVOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D92D7F2E32251C006C07C2 /* iOSPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSPlayer.swift; sourceTree = "<group>"; };
 		84D92D802E322529006C07C2 /* tvOSPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvOSPlayer.swift; sourceTree = "<group>"; };
-		84D92D812E322531006C07C2 /* SharedPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedPlayer.swift; sourceTree = "<group>"; };
+		84D92D812E322531006C07C2 /* SharedLogicManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedLogicManager.swift; sourceTree = "<group>"; };
 		84D92D832E3225E3006C07C2 /* TestSDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestSDK.podspec; sourceTree = "<group>"; };
 		84D92D862E322BF6006C07C2 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,7 +75,7 @@
 		84D92D7B2E322508006C07C2 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				84D92D812E322531006C07C2 /* SharedPlayer.swift */,
+				84D92D812E322531006C07C2 /* SharedLogicManager.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -218,6 +222,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D92D8B2E3239DB006C07C2 /* iOSPlayer.swift in Sources */,
+				84D92D892E3239D5006C07C2 /* SharedLogicManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D92D8C2E3239E0006C07C2 /* tvOSPlayer.swift in Sources */,
+				84D92D8A2E3239D5006C07C2 /* SharedLogicManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
