@@ -11,10 +11,10 @@ Pod::Spec.new do |s|
   s.version          = '1.0.0'
   s.summary          = 'A cross-platform player SDK for iOS and tvOS'
   s.description      = 'Provides AVPlayer-based playback support for iOS and tvOS platforms.'
-  s.homepage         = 'https://github.com/yourname/TestSDK'
+  s.homepage         = 'https://github.com/iOSDevParth/TestSDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Parth Vaghasiya' => 'your@email.com' }
-  s.source           = { :git => 'https://github.com/yourname/TestSDK.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/iOSDevParth/TestSDK.git', :tag => s.version }
 
   s.swift_version    = '5.0'
   s.platforms        = {

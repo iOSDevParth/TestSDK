@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		84D92D842E3225E3006C07C2 /* TestSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 84D92D832E3225E3006C07C2 /* TestSDK.podspec */; };
 		84D92D852E3225E3006C07C2 /* TestSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 84D92D832E3225E3006C07C2 /* TestSDK.podspec */; };
+		84D92D872E322BF6006C07C2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 84D92D862E322BF6006C07C2 /* LICENSE */; };
+		84D92D882E322BF6006C07C2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 84D92D862E322BF6006C07C2 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,7 @@
 		84D92D802E322529006C07C2 /* tvOSPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvOSPlayer.swift; sourceTree = "<group>"; };
 		84D92D812E322531006C07C2 /* SharedPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedPlayer.swift; sourceTree = "<group>"; };
 		84D92D832E3225E3006C07C2 /* TestSDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestSDK.podspec; sourceTree = "<group>"; };
+		84D92D862E322BF6006C07C2 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,7 @@
 		84942CFF2E30EACC00118B07 = {
 			isa = PBXGroup;
 			children = (
+				84D92D862E322BF6006C07C2 /* LICENSE */,
 				84D92D832E3225E3006C07C2 /* TestSDK.podspec */,
 				84D92D7D2E322508006C07C2 /* Sources */,
 				84942D0A2E30EACC00118B07 /* Products */,
@@ -193,6 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D92D882E322BF6006C07C2 /* LICENSE in Resources */,
 				84D92D842E3225E3006C07C2 /* TestSDK.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D92D872E322BF6006C07C2 /* LICENSE in Resources */,
 				84D92D852E3225E3006C07C2 /* TestSDK.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
